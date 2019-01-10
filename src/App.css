@@ -1,32 +1,105 @@
 .App {
-  text-align: center;
+    text-align: center;
+    /* background-color: black; */
+}
+  
+.ul-link {
+    list-style: none;
+}
+
+#main-nav {
+    height: 65px;;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+    animation: App-logo-spin infinite 5s linear;
+    height: 70px;
+}
+
+.App-learn {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+  
+#detail-p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+
+#title {
+    font-family: 'Copse', sans-serif;
+}
+
+#set-code {
+    width: 500px;
+}
+
+#img-poke-name {
+    width: 100px;
+    height: 100px;
+}
+
+#img-detail {
+    width: 500px;
+}
+  
+#poke-detail {
+    width: 1000px;
+    height: 600px;
+}
+
+#avatar {
+    width: 200px;
+    height: 200px;
+}
+
+#user-h1 {
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: #ffd700;
+    padding: 0 15px;
+}
+  
+#ul-nav {
+    width: 570px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-btn {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
 }
 
+.nav-item {
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+  
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
+
+#swapi-title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+#swapi-subtitle {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+  
